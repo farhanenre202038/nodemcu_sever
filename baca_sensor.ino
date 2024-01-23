@@ -4,9 +4,9 @@
 #define TRIG_PIN D2
 #define ECHO_PIN D1
 
-const char *ssid = "Farhan_Abadi";
-const char *password = "farhanabadi2020";
-const char *serverAddress = "http://192.168.1.18/sensor_sonic/kirim_data.php";
+const char *ssid = "nama_wifi";
+const char *password = "password_wifi";
+const char *serverAddress = "http://ipaddres/sensor_sonic/kirim_data.php";
 
 WiFiClient wifiClient;  // Deklarasikan objek WiFiClient di sini
 
